@@ -86,7 +86,7 @@ cs-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
         combo_blqmayus {
             timeout-ms = <50>;
             key-positions = <33 34>;
-            bindings = <&mt LCTRL RET>;
+            bindings = <&kp RET>;
         };
          compatible = "zmk,combos";
          combo_ctrolz {
