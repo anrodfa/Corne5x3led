@@ -47,6 +47,12 @@ cs-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
             bindings = <&kp BSPC>;
         };
         compatible = "zmk,combos";
+        combo_RET {
+            timeout-ms = <50>;
+            key-positions = <33 34>;
+            bindings = <&mt LCTRL RET>;
+        };
+        compatible = "zmk,combos";
         combo_BSPC2 {
             timeout-ms = <50>;
             key-positions = <9 10>;
